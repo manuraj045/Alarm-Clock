@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(45deg, #c33764, #1d2671);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.alarm-container {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 300px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: rgb(5, 5, 5);
+}
+
+.currentTime {
+  font-size: 2rem;
+  margin: 20px 0;
+  color: #333;
+}
+
+.alarmlist {
+  margin-top: 20px;
+  text-align: left;
+  color: #333;
+}
+
+.alarm {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: fadeIn 0.5s ease-in-out;
+  font-size: 14px;
+}
+
+.setAlarmbtn {
+  background-color: #2e295f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.setAlarm {
+  font-family: Arial, sans-serif;
+}
+
+.setAlarm select {
+  height: 2rem;
+}
+
+.delete-alarm {
+  background-color: #c33764;
+  color: #fff;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+/* Defining Animation */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
