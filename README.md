@@ -4,13 +4,13 @@
 This is a repository has the souce code for Alarm Clock Developed using Vanilla JavaScript, HTML and CSS.</li>
 <br>
 
-# Problem Statement
+## Problem Statement
 ---
 
 Create an alarm clock. Use ONLY vanilla javascript, no libraries or frameworks allowed for Javascript (you can use any css framework like Bootstrap).
 <br>
 
-# Features Required
+## Features Required
 ---
 
 - <b>Clock face</b><br>
@@ -37,7 +37,7 @@ Create an alarm clock. Use ONLY vanilla javascript, no libraries or frameworks a
 
 <br>
 
-# Live DEMO
+## Live DEMO
 ---
 
 https://manuraj045.github.io/Alarm-Clock/
