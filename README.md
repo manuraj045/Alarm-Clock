@@ -1,7 +1,7 @@
 # Alarm-Clock using Vanilla JavaScript
 ---
 
-This is a repository has the souce code for Alarm Clock Developed using Vanilla JavaScript, HTML and CSS.</li>
+This repository has the souce code for Alarm Clock Developed using Vanilla JavaScript, HTML and CSS.</li>
 <br>
 
 ## Problem Statement
